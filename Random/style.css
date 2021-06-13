@@ -1,0 +1,36 @@
+h3{
+  color: #222831;
+  font-size: 30px;
+}
+
+.countDiv{
+  text-align: center;
+}
+
+.btn{
+  width: 10%;
+  height: 30px;
+  margin-right: 8px;
+  background-color: #ff8e71;
+  color: white;
+  border-width: 0;
+  border-radius: 3px;
+}
+
+.pressed {
+  border-width: 1.5px;
+  border-color: black;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.flyDiv{
+  height: 150px;
+}
+
+.flybtn{
+  transition: transform 2s;
+}

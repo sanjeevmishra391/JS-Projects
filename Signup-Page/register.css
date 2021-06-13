@@ -1,0 +1,85 @@
+.login-div{
+  background-color: #f6ecf0;
+  height: 600px
+}
+
+.loginsec{
+  max-width: 450px;
+  width: 60%;
+  margin: auto;
+  position: relative;
+  top: 50px;
+  padding: 15px 0px;
+  color: white;
+  background-color: #fa9579;
+  border-radius: 10px;
+}
+
+.header-sec{
+  text-align: center;
+}
+
+.tip{
+  color: #f1f1f1;
+}
+
+hr{
+  width: 90%;
+  background-color: white;
+}
+
+.warning{
+  color: red;
+  margin: 0px;
+  padding-left: 6%;
+  text-align: left;
+  font-size: 15px;
+  display: none;
+}
+
+.body-sec{
+  padding: 5px;
+  text-align: center;
+}
+
+input{
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.username{
+  width: 42%;
+  margin: auto 2%;
+}
+
+
+.detail{
+  margin: 5% 2% 0%;
+  width: 90%;
+}
+
+.terms-div{
+  padding: 5px;
+  margin-left: 5%;
+  width: 90%;
+}
+
+.terms{
+  padding-left: 5px;
+  display: inline;
+}
+
+.terms a{
+  color: #ea2c62;
+}
+
+.terms a:hover{
+  text-decoration: none;
+}
+
+.registerbtn{
+  margin: 4% auto;
+  position: relative;
+  left: 25%;
+  width: 50%;
+}

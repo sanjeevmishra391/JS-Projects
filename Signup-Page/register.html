@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="login-div">
+      <section class="loginsec">
+        <section class="header-sec">
+          <h1>Register</h1>
+          <p class="tip">Create your account. It's free and only takes a minute.</p>
+          <hr>
+        </section>
+        <section class="body-sec">
+          <form>
+            <div class="name-div">
+              <input type="text" class="username" name="first-name" value="" placeholder="First name">
+              <input type="text" class="username" name="last-name" value="" placeholder="Last name">
+              <p class="warning name">Name cannot be empty.</p>
+            </div>
+            <div class="detial-div">
+              <input type="text" class="detail mail" name="email" value="" placeholder="Email">
+              <p class="warning mail">Email should contain @ and proper address.</p>
+              <input type="password" class="detail" name="password" value="" placeholder="Password">
+              <p class="warning pass">Password should not be less than 8 characters.</p>
+              <input type="password" class="detail" name="confirm-password" value="" placeholder="Confirm password">
+              <p class="warning conpass">Doesn't match with password</p>
+            </div>
+          </form>
+        </section>
+        <div class="terms-div">
+          <input type="checkbox" class="check" name="" value="">
+          <p class="terms">I accept the <a href="">Terms of Use</a> & <a href="">Privacy Policy</a>.</p>
+        </div>
+
+        <button type="button" name="button" class="registerbtn btn btn-success disabled">Register Now</button>
+      </section>
+    </div>
+
+    <script type="text/javascript" src="register.js">    </script>
+  </body>
+</html>

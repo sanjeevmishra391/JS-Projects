@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ToDo Creator</title>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="blurred-div left-div">
+          <div class="creator-div">
+            <div class="heading-div">
+              <h2 class="heading">Create To Do</h2>
+            </div>
+            <div class="body-div">
+              <p class="p1 para">Add list title</p>
+              <input type="text" name="todo-name" value="" placeholder="Enter title">
+              <button type="button" name="button" class="btn name-btn">Add Name</button>
+              <p class="p2 para">Add item to list</p>
+              <input type="text" name="todo-item" value="" placeholder="Enter item">
+              <button type="button" name="button" class="btn item-btn">Add Item</button>
+            </div>
+          </div>
+      </div>
+
+      <div class="blurred-div right-div">
+          <div class="creator-div">
+            <div class="heading-div">
+              <h2 class="heading list-name"></h2>
+            </div>
+            <div class="body-div">
+              <ul class="items">
+              </ul>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <script src="todo.js">    </script>
+  </body>
+</html>
